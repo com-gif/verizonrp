@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rantex RP</title>
+    <style>
+        /* Общие стили для панели навигации */
+        .navbar {
+            position: fixed; /* Фиксированное положение */
+            top: 0; /* Прикрепить к верху страницы */
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.2); /* Стеклянный эффект */
+            padding: 10px 0;
+            border-radius: 0 0 10px 10px; /* Закругленные уголки */
+            z-index: 100; /* абеспечивает отображение поверх другого контента */
+            display: flex; /* Используем flexbox для расположения элементов */
+            justify-content: space-around; /* Равномерное распределение пространства между элементами */
+            align-items: center; /* Выравнивание элементов по вертикали */
+        }
+
+        /* Стили для ссылок */
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: all 0.3s ease; /* Плавный эффект при наведении */
+        }
+
+        /* Стили при наведении */
+        .navbar a:hover {
+            color: red;
+            transform: scale(1.2); /* Увеличение размера */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#footer">Скачать лаунчер</a> <!-- Ссылка на футер -->
+        <a href="https://rantexrp.hgweb.ru">Форум</a> <!-- Ссылка на форум -->
+        <a href="https://com-gif.github.io/Rantexrpdonate/">Донат</a> <!-- Ссылка на донат -->
+    </div>
+    
+    <title>Rantex RP</title>
+    <style>
+        /* Общие стили для адаптивности и красоты */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #373737;
+        }
+        .container {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 0px;
+        }
+        /* Стили для изображения и кнопки */
+        .header {
+            position: relative;
+            text-align: center;
+        }
+        .header img {
+            width: 100%; /* Адаптивное изображение */
+            max-height: 2000px;
+            object-fit: cover; /* Чтобы изображение не искажалось */
+        }
+        .header .button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: yellow;
+            color: black;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: transform 0.3s ease; /* Плавное увеличение */
+        }
+        .header .button:hover {
+            transform: translate(-50%, -50%) scale(1.1); /* Увеличение при наведении */
+        }
+        /* Стили для описания проекта */
+        .description {
+            background-image: url('i1/fon.jpg'); /* Замените на URL вашего фона */
+            background-size: cover;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        /* Стили для нижней кнопки */
+        .download-button {
+            background-color: yellow;
+            color: black;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: transform 0.3s ease;
+            display: block;
+            margin: 20px auto;
+            width: fit-content;
+        }
+        .download-button:hover {
+            transform: scale(1.1);
+        }
+        /* Адаптация под мобильные */
+        max-width: 768px {
+            .container {
+                padding: 0px;
+            }
+            .description {
+                padding: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="i1/start3.jpg" alt="i1/start3.jpg">
+            <a href="#footer"><button class="button">Начать Играть</button></a>
+        </div>
+        <div class="description">
+            <h2>Rantex RP</h2>
+            <p>Окунитесь в жизнь Rantex - реалистичного Roleplay мира!  Забудьте о скучных буднях! Здесь вы сами творите свою историю. Станьте отважным полицейским, защищающим город от преступности, влиятельным бизнесменом, ворочающим миллионами, или отъявленным гангстером, живущим по своим законам.  Вас ждет продвинутая экономика, глубокая система взаимодействия персонажей,  уникальные фракции с собственными целями и динамичный мир, реагирующий на каждое ваше действие.Rantex -  это не просто игра, это вторая жизнь, где ваши решения имеют значение!  Присоединяйтесь и станьте частью нашей захватывающей истории!</p>
+            <p>-------------</p>
+            <h2><p>Как начать играть?</p></h2>
+            <p>• Нажми на кнопу "Скачать лаунчер",тем самым начнется загрузка лаунчера проекта</p>
+            <p>• После установки лаунчера откройте его и начните загрузку игры. </p>
+            <p>• После окончания загрузки выберите сервер и нажмите кнопку "Играть"</p>
+            <p>Вот и всё! </p>   
+        </div>
+        <footer id="footer">
+            <a href="ссыла_на_лаунчер"><button class="download-button">Скачать лаунчер</button></a>
+        </footer>
+    </div>
+</body>
+</html>
